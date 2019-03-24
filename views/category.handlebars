@@ -1,0 +1,8 @@
+<div class="container-fluid">
+  <a class="btn btn-primary" href="/categories" role="button">Back</a>
+  <a class="btn btn-primary" href="/" role="button">Home</a>
+  <h3>{{category_name}}</h3>
+  {{#each data}}
+  <p><a href="/problem/{{id}}">{{title}}</a></p>
+  {{/each}}
+</div>
